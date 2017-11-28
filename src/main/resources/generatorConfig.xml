@@ -6,7 +6,7 @@
 
     <classPathEntry location="D:\\home\vobile\bin\maven_repo\mysql\mysql-connector-java\5.1.39\mysql-connector-java-5.1.39.jar"  />
 
-    <context id="MybatisGenerator" targetRuntime="Mybatis3" >
+    <context id="MybatisGenerator" targetRuntime="Mybatis3Simple" >
 
         <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
         <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
@@ -31,7 +31,7 @@
 
         <!--数据库连接信息：驱动类 链接地址 用户名 密码-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.127.130:3306/zhangxin?useSSL=false"
+                        connectionURL="jdbc:mysql://192.168.127.131:3306/zhangxin?useSSL=false"
                         userId="root"
                         password="123456">
         </jdbcConnection>
